@@ -1,5 +1,5 @@
-# Home-Dashboard
-Home dashboard using the UcfWebcoursesAPI and some other stuff. 
+# My Home Dashboard
+Home dashboard using the [UcfWebcoursesAPI](https://github.com/JackWorden/ucf_canvas_api) and some other stuff. 
 
 
 Requires `application.yml` to be created in the root directory to be run. The values in `application.yml` are specific to you, and follow the pattern found in `application.example.yml`.
