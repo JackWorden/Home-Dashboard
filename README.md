@@ -1,4 +1,8 @@
 ### This is still a pretty big work in progress
+
+I highly reccomend not using this. It'll probably just break. I wrote this to fit my specific cases and it shows quite a bit. I assumed things like only having one enrollment in each class or that only assigment submission related TODOs will appear. It allowed me to make this quickly, but it's also really brittle.
+
+
 1. The weather component isn't implemented yet. 
 1. I'd like to use Canvas' course nicknames to name the courses, instead of looking the IDs up in `application.yml`.
 1. The `fetcher` classes could stand to benefit from some refactoring
