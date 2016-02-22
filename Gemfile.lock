@@ -1,0 +1,52 @@
+GIT
+  remote: git://github.com/jackworden/ucf_canvas_api.git
+  revision: 7ef3c91f7c7300df2f3aa7f9117443b7b3d00d24
+  specs:
+    ucf_canvas_api (0.0.1.2)
+      httparty (~> 0.13.7)
+
+GEM
+  specs:
+    coderay (1.1.0)
+    daemons (1.2.3)
+    eventmachine (1.0.9.1)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    method_source (0.8.2)
+    multi_xml (0.5.5)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    sass (3.4.21)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-partial (0.4.0)
+      sinatra
+    slop (3.6.0)
+    thin (1.6.4)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (~> 1.0)
+    tilt (2.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  sass
+  sinatra
+  sinatra-partial
+  thin
+  ucf_canvas_api!
+
+BUNDLED WITH
+   1.10.6

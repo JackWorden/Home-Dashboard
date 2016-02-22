@@ -1,0 +1,4 @@
+:canvas_auth_key: 'canvas key'
+:courses:
+  course_id: 'Course name'
+  another_id: 'Another course name'

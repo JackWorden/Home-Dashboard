@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col m12 date-time">
+      <div class="time white-text">
+        12:12pm
+      </div>
+      <div class="date white-text">
+        1.23.16
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col m4">
+      <%= partial(:weather_card) %>
+    </div>
+
+    <div class="col m4">
+      <ul class="collection with-header">
+        <li class="collection-header"><h5>To Do</h5></li>
+
+        <% @todo_list.each do |item| %>
+            <%= partial(:todo_item, locals: {item: item}) %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div class="col m4">
+      <ul class="collection with-header">
+        <li class="collection-header"><h5>Grades</h5></li>
+
+        <% @grade_list.each do |grade| %>
+            <%= partial(:grade, locals: {grade: grade}) %>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>
