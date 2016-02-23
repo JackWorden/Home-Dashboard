@@ -4,4 +4,4 @@ gem 'sass'
 gem 'sinatra-partial'
 gem 'pry'
 
-gem 'ucf_canvas_api', github: 'jackworden/ucf_canvas_api'
+gem 'ucf_canvas_api', github: 'jackworden/UCF_Canvas_API'

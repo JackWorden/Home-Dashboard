@@ -35,7 +35,7 @@ class Dashboard < Sinatra::Base
     # Determines color of assignment icon in Todo list depending on
     # how close it is to being due
     def urgency_color(date)
-      return nil unless date.to_date == Date.today
+      return nil unless date.to_time.localtime.to_date == Date.today
       if date.hour - DateTime.now.hour < 6
         'red'
       else

@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/jackworden/ucf_canvas_api.git
-  revision: 7ef3c91f7c7300df2f3aa7f9117443b7b3d00d24
+  remote: git://github.com/jackworden/UCF_Canvas_API.git
+  revision: 51f229e74863a66f163f4db2d2f1b94b936f841f
   specs:
     ucf_canvas_api (0.0.1.2)
       httparty (~> 0.13.7)
