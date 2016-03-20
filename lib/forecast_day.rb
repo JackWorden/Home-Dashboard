@@ -7,4 +7,8 @@ class ForecastDay
     @weather = weather
     @day = day
   end
+
+  def average_temp
+    ((high + low)/2).round(0)
+  end
 end

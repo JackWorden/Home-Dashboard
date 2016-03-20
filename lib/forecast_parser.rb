@@ -28,7 +28,7 @@ class ForecastParser
     ForecastDay.new(
       temps[:max_temps].max,
       temps[:min_temps].min,
-      weather,
+      weather[0],
       day_of_week(segments[0]['dt'])
     )
   end

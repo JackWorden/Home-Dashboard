@@ -1,24 +1,28 @@
 <div class="card grey lighten-2 small">
   <div class="card-image">
-    <img src="/images/sunny.jpeg" alt="">
+    <img src=<%= "/images/#{@current_weather.weather.downcase}.jpeg" %> alt="">
     <span class="card-title">Oviedo, Fl</span>
   </div>
   <div class="card-content weather-content">
-    <div class="temp left">80</div>
+    <div class="temp left"><%= @current_weather.average_temp %></div>
 
     <div class="vertical-divider"></div>
 
     <div class="forecast-container right">
       <div class="forecast left">
-        <div class="day">M</div>
+        <div class="day"><%= @weather_forecast[0].day %></div>
         <div class="divider"></div>
-        <div class="forecast-temp">80/80</div>
+        <div class="forecast-temp">
+          <%= "#{@weather_forecast[0].high}/#{@weather_forecast[0].low}" %>
+        </div>
       </div>
 
       <div class="forecast right">
-        <div class="day">T</div>
+        <div class="day"><%= @weather_forecast[1].day %></div>
         <div class="divider"></div>
-        <div class="forecast-temp">80/80</div>
+        <div class="forecast-temp">
+          <%= "#{@weather_forecast[1].high}/#{@weather_forecast[1].low}" %>
+        </div>
       </div>
     </div>
   </div>
