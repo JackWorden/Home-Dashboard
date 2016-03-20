@@ -16,6 +16,8 @@ GEM
     json (1.8.3)
     method_source (0.8.2)
     multi_xml (0.5.5)
+    open-weather (0.11.0)
+      json
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -41,6 +43,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  open-weather (~> 0.11.0)
   pry
   sass
   sinatra
