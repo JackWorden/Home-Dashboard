@@ -6,6 +6,9 @@ class Dashboard < Sinatra::Base
   get '/' do
     @todo_list = TodoFetcher.fetch_list
     @grade_list = GradeFetcher.fetch_list
+    @current_weather = WeatherFetcher.fetch_current_weather
+    @weather_forecast = WeatherFetcher.fetch_forecast
+    binding.pry
     erb :dashboard, layout: :layout
   end
 
